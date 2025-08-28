@@ -1,0 +1,26 @@
+t=x6_v.Tiempo_ms;
+y=x6_v.Voltaje_V;
+    t1=x1_3_v.Tiempo_ms;
+    y1=x1_3_v.Voltaje_V;
+         t2=x2_1_v.Tiempo_ms;
+         y2=x2_1_v.Voltaje_V;
+             t3=x2_6_v.Tiempo_ms;
+             y3=x2_6_v.Voltaje_V;
+                 t4=x3_v.Tiempo_ms;
+                 y4=x3_v.Voltaje_V;
+
+subplot(3,2,1)
+ plot(t,y)
+ title('0,6V')
+ subplot(3,2,2)
+plot(t1,y1)
+title('1,3V')
+subplot(3,2,3)
+plot(t2,y2)
+title('2,1V')
+subplot(3,2,4)
+plot(t3,y3)
+title('2,6V')
+subplot(3,2,5)
+plot(t4,y4)
+title('3,0V')
